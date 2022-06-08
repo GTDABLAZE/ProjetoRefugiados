@@ -1,0 +1,380 @@
+.topnav {
+  background-color: #363636;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ededed;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #212121;
+  color: white;
+}
+
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding-top: 35px;
+}
+
+h1{
+  text-align:center;
+   padding-top: 35px;
+  color: white;
+  font-size: 300%;
+}
+
+h2{ 
+ padding-top : 35px;
+  color: white;
+}
+  
+h4{
+  text-align:center;
+}
+
+body {
+ background-image: url("refugio.png");
+ background-color: #cccccc;
+}
+
+td{ color: white; 
+   }
+
+.descricao{
+  color: white;
+  padding-left: 30px;
+  padding-right: 1100px;
+  text-align: justify;
+}
+   
+
+h3{
+  color: white;
+  font-family;
+}
+
+.col-100 {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.pessoas1 {
+	border-bottom: 3px solid #aaa;
+	background-color: #3b3b3b;
+	color: #ddd;
+	padding: 20px;	
+}
+
+.pessoas2 {
+	border-bottom: 3px solid #aaa;
+	background-color: #3b3b3b;
+	color: #ddd;
+	padding: 20px;	
+}
+
+/* Celular/
+
+/* Cabeçalho */
+header {
+    height: 60px;
+}
+
+#logo img {
+    width: 128px;
+    height: 128px;
+}
+
+#check {
+    display: none;
+}
+
+label {
+    font-size: 1em;
+    top: 5px;
+    right: 15px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #fcfcfd;
+    height: 100vh;
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+#check:checked ~ ul {
+    right: 0;
+}
+
+nav ul li {
+    padding: 20px;
+    border-bottom: 1px solid #ffffff;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Destaque */
+main {
+    height: 75vh;
+    background: url(img/refugio.png);
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2.5em;
+}
+
+main h2 {
+    font-size: 1em;
+    margin: 20px 0px 50px 0px;
+}
+
+/* Uma Pagina */
+#onepage {
+    padding: 50px 10px;
+}
+
+#onepage h2 {
+    margin-bottom: 10px;
+}
+
+#onepage p {
+    margin-bottom: 25px;
+}
+
+#video iframe {
+    width: 340px;
+    height: 191px; 
+    border: 0;   
+}
+
+/* Wireframe */
+#wireframe {
+    padding: 50px 0px;
+    background: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#textoWire {
+    color: #fff;
+    padding: 0px 10px;
+}
+
+#textoWire h2 {
+    margin-bottom: 10px;
+}
+
+#textoWire p {
+    margin-bottom: 40px;
+}
+
+#textoWire span {
+    display: none;
+}
+
+#qrcode {
+    display: none;
+}
+
+/* Conteúdo */
+#conteudo {
+    padding: 50px 0px;
+}
+
+#conteudo h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#todos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#todos a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+/* Layout Celular >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+    /* Layout */
+    .Container {
+        max-width: 540px;
+    }
+
+    /* Destaque */
+    main h1, main h2 {
+        text-shadow: #000 0.05em 0.05em 0.05em;
+    }
+
+    /* One page */
+    #video iframe{
+        width: 560px;
+        height: 315px;
+    }
+}
+
+/* Tablet Portatil >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+    /* Layout */
+    .Container {
+        max-width: 720px;
+    }
+
+    /* Destaque */
+    main {
+        height: 45vh;
+    }
+
+    main h1 {
+        font-size: 5.5em;
+    }
+
+    main h2 {
+        font-size: 2em;
+    }
+}
+/* Sobre */
+#sobre {
+    padding: 50px 0px;
+    background: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#destaqueSobre {
+    display: none;
+}
+
+#textoSobre {
+    color: #fff;
+    padding: 0px 10px;
+}
+
+#textoSobre h2 {
+    margin-bottom: 10px;
+}
+
+.TopicosSobre {
+    margin-top: 20px;
+}
+
+.TopicosSobre img {
+    margin-right: 10px;
+}
+/* One page */
+#onepage {
+    padding: 50px 10px;
+}
+
+#onepage h2 {
+    margin-bottom: 10px;
+}
+
+#onepage p {
+    margin-bottom: 25px;
+}
+
+#video iframe {
+    width: 340px;
+    height: 191px; 
+    border: 0;   
+}
+
+/* Wireframe */
+#wireframe {
+    padding: 50px 0px;
+    background: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#textoWire {
+    color: #fff;
+    padding: 0px 10px;
+}https://ProjetoRefugiados.augustotaquetti.repl.co
+
+#textoWire h2 {
+    margin-bottom: 10px;
+}
+
+#textoWire p {
+    margin-bottom: 40px;
+}
+
+#textoWire span {
+    display: none;
+}
+
+#qrcode {
+    display: none;
+}
+
+/* Conteúdo */
+#conteudo {
+    padding: 50px 0px;
+}
+
+#conteudo h2 {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#todos {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#todos a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+/* Tablet  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+    /* Layout */
+    .Container {
+        max-width: 960px;
+    }
+
+    /* Destaque */
+    main {
+        height: 70vh;
+    }
+}
